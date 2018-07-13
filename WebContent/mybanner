@@ -1,0 +1,22 @@
+# dir. Base directory for your banners. Servlet will output on the round-robin schema 
+# files from this directory with extensions GIF, JPG, JPEG, PNG. 
+# This parameter is mandatory. 
+dir=/images/
+
+# describe URL's for the redirection (target sites) in the form of: 
+# filename=appropriate_url. E.g.: 
+vpb.jpg=http://localhost:9999/viddarthipustakbhandar/index.jsp
+newvpb.jpg=http://localhost:9999/viddarthipustakbhandar/index.jsp
+
+
+# how to rotate banners. 
+# 0 - per session (each user will have own loop) 
+# 1 - per application (one loop for all visitors) 
+# Default value is 0. 
+rotate=1
+mode=1
+
+# Logging
+
+# directory for log files 
+log=/logs/nk.log

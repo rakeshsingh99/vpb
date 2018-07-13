@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE taglib PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.1//EN" "http://java.sun.com/j2ee/dtds/web-jsptaglibrary_1_1.dtd">
+<taglib>
+   <tlibversion>1.0</tlibversion>
+   <jspversion>1.1</jspversion>
+   <shortname>NK Custom Tags.</shortname>
+    <uri>/WEB-INF/new.tld</uri>
+<tag>
+   <name>error</name> 
+   <tagclass>com.book.shop.tags.ErrorTag</tagclass>
+   <bodycontent>empty</bodycontent>
+   
+   <attribute>
+   <name>property</name>
+   <required>true</required>
+   <rtexprvalue>true</rtexprvalue>
+   </attribute>
+</tag>
+
+<tag>
+   <name>displayBookTotalAmount1</name> 
+   <tagclass>com.book.shop.newTags.DiscountBookAmountTag</tagclass>
+   <bodycontent>empty</bodycontent> 
+   
+   <attribute>
+   <name>value</name>
+   <required>true</required>
+   <rtexprvalue>true</rtexprvalue>
+   </attribute>
+</tag>
+
+<tag>
+   <name>displayDiscountAmount</name> 
+   <tagclass>com.book.shop.tags.BookDiscountAmountTag</tagclass>
+   <bodycontent>empty</bodycontent> 
+   
+   <attribute>
+   <name>value</name>
+   <required>true</required>
+   <rtexprvalue>true</rtexprvalue>
+   </attribute>
+   <attribute>
+   <name>quantity</name>
+   <required>true</required>
+   <rtexprvalue>true</rtexprvalue>
+   </attribute>
+</tag>
+
+<tag>
+   <name>displayDiscount</name> 
+   <tagclass>com.book.shop.tags.TotalAmountTag</tagclass>
+   <bodycontent>empty</bodycontent> 
+</tag>
+
+</taglib>

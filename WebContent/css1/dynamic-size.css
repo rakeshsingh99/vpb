@@ -1,0 +1,254 @@
+
+html { font-size: 62.5%; }
+body { font-size: 0.9987em;}
+
+
+@media (min-width: 200px) {
+    html { font-size: 60%; }
+    .loginback{
+   padding-top: 63px;
+}
+#navmenu ul li a {
+	font-size: 15px;
+}		
+}
+
+@media (min-width: 250px) {
+    html { font-size: 60%; }
+    .loginback{
+   padding-top: 50px;
+}
+#navmenu ul li a {
+	font-size: 15px;
+}
+}
+
+@media (min-width: 279px) {
+    html { font-size: 60%; }
+    .loginback{
+   padding-top: 50px;
+}
+#navmenu ul li a {
+	font-size: 15px;
+}
+}
+
+@media (max-width: 288px) {
+    html { font-size: 60%; }
+    .loginback{
+   padding-top: 50px;
+}
+#navmenu ul li a {
+	font-size: 15px;
+}
+}
+
+@media (max-width: 298px) {
+    html { font-size: 60%; }
+    .loginback{
+   padding-top: 63px;
+}
+#navmenu ul li a {
+	font-size: 15px;
+}
+}
+
+@media (min-width: 298px) {
+    html { font-size: 60%; }
+    .loginback{
+   padding-top: 63px;
+}
+#navmenu ul li a {
+	font-size: 15px;
+}
+}
+
+@media (min-width: 300px) {
+    html { font-size: 70%; }
+    .loginback{
+   padding-top: 63px;
+}
+#navmenu ul li a {
+	font-size: 15px;
+}
+}
+
+@media (min-width: 319px) {
+    html { font-size: 60%; }
+    .loginback{
+   padding-top: 29px;
+}
+#navmenu ul li a {
+	font-size: 15px;
+}
+}
+
+@media (min-width: 376px) {
+    html { font-size: 70%; }
+     .loginback{padding-top: 25px;}
+#navmenu ul li a {
+	font-size: 15px;
+}
+}
+
+@media (min-width: 450px) {
+    html { font-size: 70%; }
+     .loginback{padding-top: 22px;}
+#navmenu ul li a {
+	font-size: 15px;
+}
+}
+
+
+@media (min-width: 499px) {
+    html { font-size: 70%; }
+     .loginback{padding-top: 20px;}
+#navmenu ul li a {
+	font-size: 15px;
+}
+}
+
+
+@media (min-width: 544px) {
+    html { font-size: 70%; }
+     .loginback{padding-top: 17px;}
+#navmenu ul li a {
+	font-size: 15px;
+}
+}
+
+
+@media (min-width: 642px) {
+    html { font-size: 70%; }
+     .loginback{padding-top: 14px;}
+#navmenu ul li a {
+	font-size: 15px;
+}
+}
+
+@media (min-width: 680px) {
+    html { font-size: 70%; }
+     .loginback{padding-top: 14px;}
+#navmenu ul li a {
+	font-size: 15px;
+}
+}
+
+
+@media (min-width: 684px) {
+    html { font-size: 70%; }
+     .loginback{padding-top: 14px;}
+#navmenu ul li a {
+	font-size: 15px;
+}
+}
+
+
+@media (min-width: 689px) {
+    html { font-size: 80%; }
+     .loginback{padding-top: 8px;}
+#navmenu ul li a {
+	font-size: 15px;
+}
+}
+
+
+@media (min-width: 700px) {
+    html { font-size: 80%; }
+   .loginback{padding-top: 8px;}
+#navmenu ul li a {
+	font-size: 15px;
+}
+}
+
+
+@media (min-width: 836px) {
+    html { font-size: 80%; }
+   .loginback{padding-top: 6px;}
+#navmenu ul li a {
+	font-size: 15px;
+}
+}
+
+@media (min-width: 874px) {
+    html { font-size: 80%; }
+   .loginback{padding-top: 6px;}
+#navmenu ul li a {
+	font-size: 15px;
+}
+}
+
+
+@media (min-width: 884px) {
+    html { font-size: 80%; }
+   .loginback{padding-top: 5px;}
+   
+#navmenu ul li a {
+	font-size: 15px;
+}
+}
+
+@media (min-width: 900px) {
+    html { font-size: 80%; }
+   .loginback{padding-top: 4px;}
+#navmenu ul li a {
+	font-size: 15px;
+}
+}
+
+@media (min-width: 914px) {
+    html { font-size: 80%; }
+   .loginback{padding-top: 1px;}
+#navmenu ul li a {
+	font-size: 15px;
+}
+}
+
+@media (min-width: 920px) {
+    html { font-size: 80%; }
+   .loginback{padding-top: 0em}
+#navmenu ul li a {
+	font-size: 15px;
+}
+}
+
+@media (min-width: 950px) {
+    html { font-size: 80%; }
+   .loginback{padding-top: -2em;}
+#navmenu ul li a {
+	font-size: 15px;
+}
+}
+
+@media (min-width: 962px) {
+    html { font-size: 80%; }
+   .loginback{padding-top: -20%;}
+#navmenu ul li a {
+	font-size: 15px;
+}
+}
+
+@media (min-width: 980px) {
+    html { font-size: 85%; }
+   .loginback{padding-top: -20%;}
+#navmenu ul li a {
+	font-size: 15px;
+}
+}
+
+@media (min-width:1001px) {
+    html { font-size: 90%; }
+    .loginback{padding-top: -20%;}
+#navmenu ul li a {
+	font-size: 15px;
+}
+}
+
+
+@media (min-width: 1200px) {
+    html { font-size: 95%; }
+   .loginback{padding-top: -20%;}
+#navmenu ul li a {
+	font-size: 15px;
+}
+}

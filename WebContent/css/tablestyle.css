@@ -1,0 +1,38 @@
+table.border {
+    border:1px solid grey;
+    border-collapse:collapse;
+}
+table.border tr.line {
+	border:1px solid grey;
+    border-collapse:collapse;
+}
+table.border tr.total {
+	border-top: solid 1px grey;
+}
+
+table.border tr.grandtotal {
+	border-bottom: solid 1px grey;
+}
+
+table.border td.line {
+border-right: solid 1px grey; border-left: solid 1px grey;
+}
+
+table.border td.borderleft {
+border-left: solid 1px grey;
+}
+
+table.border td.borderright {
+border-right: solid 1px grey;
+}
+
+table.border tr.noborder {
+	border:none;
+	border-right: none; border-left: none;
+    border-collapse:collapse;
+}
+table.border td.noborder {
+	border:none;
+	border-right: none; border-left: none;
+    border-collapse:collapse;
+}

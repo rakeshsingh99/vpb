@@ -1,0 +1,21 @@
+a:link {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 14px;
+	font-family: 'Capriola', sans-serif;
+}
+
+a:visited {
+	color: blue;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: 'Capriola', sans-serif;
+}
+
+a:hover {
+	color: blue;
+	text-decoration: underline;
+	font-family: 'Capriola', sans-serif;
+}

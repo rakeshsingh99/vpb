@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE taglib PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.1//EN" "http://java.sun.com/j2ee/dtds/web-jsptaglibrary_1_1.dtd">
+<taglib>
+   <tlibversion>1.0</tlibversion>
+   <jspversion>1.1</jspversion>
+   <shortname>NK Custom Tags.</shortname>
+    <uri>/WEB-INF/nk.tld</uri>
+<tag>
+   <name>error</name> 
+   <tagclass>com.book.shop.tags.ErrorTag</tagclass>
+   <bodycontent>empty</bodycontent>
+   
+   <attribute>
+   <name>property</name>
+   <required>true</required>
+   <rtexprvalue>true</rtexprvalue>
+   </attribute>
+</tag>
+
+<tag>
+   <name>validateSession</name> 
+   <tagclass>com.book.shop.tags.ValidateSessionTag</tagclass>
+   <bodycontent>empty</bodycontent> 
+</tag>
+
+<tag>
+   <name>displayUserPassword</name> 
+   <tagclass>com.book.shop.tags.DisplayUserPasswordTag</tagclass>
+   <bodycontent>empty</bodycontent> 
+</tag>
+
+<tag>
+   <name>showSortField</name> 
+   <tagclass>com.book.shop.tags.ShowSortFieldTag</tagclass>
+   <bodycontent>empty</bodycontent> 
+</tag>
+
+<tag>
+   <name>showSortOrder</name> 
+   <tagclass>com.book.shop.tags.ShowSortOrderTag</tagclass>
+   <bodycontent>empty</bodycontent> 
+</tag>
+
+<tag>
+   <name>showEdition</name> 
+   <tagclass>com.book.shop.tags.ShowEditionTag</tagclass>
+   <bodycontent>empty</bodycontent> 
+</tag>
+
+<tag>
+   <name>showClass</name> 
+   <tagclass>com.book.shop.tags.ShowClassTag</tagclass>
+   <bodycontent>empty</bodycontent> 
+</tag>
+
+<tag>
+   <name>showPublication</name> 
+   <tagclass>com.book.shop.tags.ShowPublicationTag</tagclass>
+   <bodycontent>empty</bodycontent> 
+</tag>
+
+<tag>
+   <name>removeSearchInfoFromSession</name> 
+   <tagclass>com.book.shop.tags.RemoveSearchInfoFromSessionTag</tagclass>
+   <bodycontent>empty</bodycontent> 
+</tag>
+
+<tag>
+   <name>displayBookTotalAmount</name> 
+   <tagclass>com.book.shop.tags.BookAmountTag</tagclass>
+   <bodycontent>empty</bodycontent> 
+   
+   <attribute>
+   <name>value</name>
+   <required>true</required>
+   <rtexprvalue>true</rtexprvalue>
+   </attribute>
+   <attribute>
+   <name>quantity</name>
+   <required>true</required>
+   <rtexprvalue>true</rtexprvalue>
+   </attribute>
+</tag>
+
+<tag>
+   <name>displayDiscountAmount</name> 
+   <tagclass>com.book.shop.tags.DiscountBookAmountTag</tagclass>
+   <bodycontent>empty</bodycontent> 
+   
+   <attribute>
+   <name>value</name>
+   <required>true</required>
+   <rtexprvalue>true</rtexprvalue>
+   </attribute>
+</tag>
+
+
+<tag>
+   <name>displayTotalAmount</name> 
+   <tagclass>com.book.shop.tags.TotalAmountTag</tagclass>
+   <bodycontent>empty</bodycontent> 
+</tag>
+
+<tag>
+   <name>fmtToIndianCurrency</name> 
+   <tagclass>com.book.shop.tags.FormatToIndianCurrencyFormatTag</tagclass>
+   <bodycontent>empty</bodycontent> 
+   
+    <attribute>
+   <name>value</name>
+   <required>true</required>
+   <rtexprvalue>true</rtexprvalue>
+   </attribute>
+</tag>
+
+
+
+<tag>
+   <name>doubleConverter</name> 
+   <tagclass>com.book.shop.tags.DoubleConverter</tagclass>
+   <bodycontent>empty</bodycontent> 
+   
+   <attribute>
+   <name>value</name>
+   <required>true</required>
+   <rtexprvalue>true</rtexprvalue>
+   </attribute>
+</tag>
+
+<tag>
+   <name>displayDiscountTotal</name> 
+   <tagclass>com.book.shop.tags.TotalDiscountAmountTag</tagclass>
+   <bodycontent>empty</bodycontent> 
+</tag>
+  
+</taglib>
